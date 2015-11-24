@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>237E9F33-5ECB-48D4-ABC7-4870067378EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HOWOLD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8048760285904414CFC8B81304D5CF4AB883AEB7</key>
+		<string>https://github.com/JackyWang2014/HOWOLD</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HOWOLD.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8048760285904414CFC8B81304D5CF4AB883AEB7</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JackyWang2014/HOWOLD</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8048760285904414CFC8B81304D5CF4AB883AEB7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8048760285904414CFC8B81304D5CF4AB883AEB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HOWOLD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

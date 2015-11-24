@@ -50,6 +50,8 @@
 		FC13BC931C041399000F55E6 /* DBCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC711C041399000F55E6 /* DBCameraGridView.m */; };
 		FC13BC941C041399000F55E6 /* DBCameraLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC731C041399000F55E6 /* DBCameraLoadingView.m */; };
 		FC13BC951C041399000F55E6 /* DBCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC751C041399000F55E6 /* DBCameraView.m */; };
+		FC13BC991C0447FF000F55E6 /* CustomCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC981C0447FF000F55E6 /* CustomCamera.m */; };
+		FC13BC9C1C044886000F55E6 /* DemoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC9B1C044886000F55E6 /* DemoNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +143,10 @@
 		FC13BC741C041399000F55E6 /* DBCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCameraView.h; sourceTree = "<group>"; };
 		FC13BC751C041399000F55E6 /* DBCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCameraView.m; sourceTree = "<group>"; };
 		FC13BC961C04221F000F55E6 /* DBCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBCamera-Prefix.pch"; sourceTree = "<group>"; };
+		FC13BC971C0447FF000F55E6 /* CustomCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCamera.h; sourceTree = "<group>"; };
+		FC13BC981C0447FF000F55E6 /* CustomCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCamera.m; sourceTree = "<group>"; };
+		FC13BC9A1C044886000F55E6 /* DemoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationController.h; sourceTree = "<group>"; };
+		FC13BC9B1C044886000F55E6 /* DemoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +281,10 @@
 		FC13BC0F1C041340000F55E6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				FC13BC971C0447FF000F55E6 /* CustomCamera.h */,
+				FC13BC981C0447FF000F55E6 /* CustomCamera.m */,
+				FC13BC9A1C044886000F55E6 /* DemoNavigationController.h */,
+				FC13BC9B1C044886000F55E6 /* DemoNavigationController.m */,
 				FC13BC321C041399000F55E6 /* DBCamera */,
 			);
 			name = Utilities;
@@ -595,8 +605,10 @@
 				FC13BC931C041399000F55E6 /* DBCameraGridView.m in Sources */,
 				FC13BBB01BFF692C000F55E6 /* AppDelegate.m in Sources */,
 				FC13BC7F1C041399000F55E6 /* DBCameraSegueViewController.m in Sources */,
+				FC13BC991C0447FF000F55E6 /* CustomCamera.m in Sources */,
 				FC13BC781C041399000F55E6 /* UIImage+Crop.m in Sources */,
 				FC13BC801C041399000F55E6 /* DBCameraViewController.m in Sources */,
+				FC13BC9C1C044886000F55E6 /* DemoNavigationController.m in Sources */,
 				FC13BC7E1C041399000F55E6 /* DBCameraLibraryViewController.m in Sources */,
 				FC13BBAD1BFF692C000F55E6 /* main.m in Sources */,
 				FC13BC7C1C041399000F55E6 /* DBCameraCollectionViewController.m in Sources */,
