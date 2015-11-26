@@ -10,7 +10,6 @@
 		73D4B1EC71706D071F776A10 /* libPods-HOWOLD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 216DCC59DC249705DF12EBB5 /* libPods-HOWOLD.a */; };
 		FC13BBAD1BFF692C000F55E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BBAC1BFF692C000F55E6 /* main.m */; };
 		FC13BBB01BFF692C000F55E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BBAF1BFF692C000F55E6 /* AppDelegate.m */; };
-		FC13BBB31BFF692C000F55E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BBB21BFF692C000F55E6 /* ViewController.m */; };
 		FC13BBB61BFF692C000F55E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC13BBB41BFF692C000F55E6 /* Main.storyboard */; };
 		FC13BBB81BFF692C000F55E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC13BBB71BFF692C000F55E6 /* Images.xcassets */; };
 		FC13BBBB1BFF692C000F55E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC13BBB91BFF692C000F55E6 /* LaunchScreen.xib */; };
@@ -52,6 +51,7 @@
 		FC13BC951C041399000F55E6 /* DBCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC751C041399000F55E6 /* DBCameraView.m */; };
 		FC13BC991C0447FF000F55E6 /* CustomCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC981C0447FF000F55E6 /* CustomCamera.m */; };
 		FC13BC9C1C044886000F55E6 /* DemoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC13BC9B1C044886000F55E6 /* DemoNavigationController.m */; };
+		FCBEF1B31C07525B007DF950 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBEF1B21C07525B007DF950 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +73,6 @@
 		FC13BBAC1BFF692C000F55E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC13BBAE1BFF692C000F55E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC13BBAF1BFF692C000F55E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC13BBB11BFF692C000F55E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HOWOLD/ViewController.h; sourceTree = "<group>"; };
-		FC13BBB21BFF692C000F55E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HOWOLD/ViewController.m; sourceTree = "<group>"; };
 		FC13BBB51BFF692C000F55E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC13BBB71BFF692C000F55E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC13BBBA1BFF692C000F55E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -147,6 +145,8 @@
 		FC13BC981C0447FF000F55E6 /* CustomCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCamera.m; sourceTree = "<group>"; };
 		FC13BC9A1C044886000F55E6 /* DemoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationController.h; sourceTree = "<group>"; };
 		FC13BC9B1C044886000F55E6 /* DemoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationController.m; sourceTree = "<group>"; };
+		FCBEF1B11C07525B007DF950 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FCBEF1B21C07525B007DF950 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,8 +272,8 @@
 		FC13BBE81C041154000F55E6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FC13BBB11BFF692C000F55E6 /* ViewController.h */,
-				FC13BBB21BFF692C000F55E6 /* ViewController.m */,
+				FCBEF1B11C07525B007DF950 /* RootViewController.h */,
+				FCBEF1B21C07525B007DF950 /* RootViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -479,6 +479,7 @@
 				TargetAttributes = {
 					FC13BBA61BFF692C000F55E6 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z6323RJ3ME;
 					};
 					FC13BBBF1BFF692C000F55E6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -596,7 +597,6 @@
 			files = (
 				FC13BC791C041399000F55E6 /* UIImage+TintColor.m in Sources */,
 				FC13BC8C1C041399000F55E6 /* DBCameraFilterCell.m in Sources */,
-				FC13BBB31BFF692C000F55E6 /* ViewController.m in Sources */,
 				FC13BC911C041399000F55E6 /* DBCameraCropView.m in Sources */,
 				FC13BC8F1C041399000F55E6 /* DBMotionManager.m in Sources */,
 				FC13BC7B1C041399000F55E6 /* DBCameraBaseCropViewController.m in Sources */,
@@ -615,6 +615,7 @@
 				FC13BC8A1C041399000F55E6 /* DBCameraManager.m in Sources */,
 				FC13BC8D1C041399000F55E6 /* DBCollectionViewCell.m in Sources */,
 				FC13BC761C041399000F55E6 /* UIImage+Asset.m in Sources */,
+				FCBEF1B31C07525B007DF950 /* RootViewController.m in Sources */,
 				FC13BC7A1C041399000F55E6 /* UIViewController+UIViewController_FullScreen.m in Sources */,
 				FC13BC921C041399000F55E6 /* DBCameraFiltersView.m in Sources */,
 				FC13BC8B1C041399000F55E6 /* DBLibraryManager.m in Sources */,
@@ -748,6 +749,8 @@
 			baseConfigurationReference = 659D4AA9C24A16C21BCE4E62 /* Pods-HOWOLD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -761,6 +764,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -769,6 +773,8 @@
 			baseConfigurationReference = A525320FB954C4B3770932BC /* Pods-HOWOLD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"HEADER_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;
 				INFOPLIST_FILE = HOWOLD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
@@ -778,6 +784,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

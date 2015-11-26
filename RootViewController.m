@@ -1,12 +1,4 @@
-//
-//  ViewController.m
-//  HOWOLD
-//
-//  Created by WangQitai on 15/11/20.
-//  Copyright (c) 2015年 WangQitai. All rights reserved.
-//
-
-#import "ViewController.h"
+#import "RootViewController.h"
 #import "DBCameraViewController.h"
 #import "DBCameraLibraryViewController.h"
 #import "CustomCamera.h"
@@ -57,14 +49,14 @@
 #define kCELLIDENTIFIER @"CellIdentifier"
 #define kCAMERATITLES @[@"Open Custom Camera",@"Open Photo Library"]
 typedef void (^TableRowBlock)();
-@interface ViewController () <DBCameraViewControllerDelegate,UITableViewDataSource,UITableViewDelegate>{
+@interface RootViewController () <DBCameraViewControllerDelegate,UITableViewDataSource,UITableViewDelegate>{
     UITableView * _tableView;
     NSDictionary * _actionDic;
 }
 
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (instancetype)init {
     self = [super init];
@@ -137,19 +129,10 @@ typedef void (^TableRowBlock)();
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:kCELLIDENTIFIER];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCELLIDENTIFIER];
-        
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCELLIDENTIFIER];        
     }
     cell.textLabel.text = kCAMERATITLES[indexPath.row];
     return cell;
-}
-
-- (IBAction)photoLibraryClick:(id)sender {
-    
-    
-}
-- (IBAction)takingPhotoClick:(id)sender {
-
 }
 
 - (void)viewDidLoad {
@@ -160,9 +143,6 @@ typedef void (^TableRowBlock)();
     [_tableView setDataSource:self];
     [_tableView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
     [self.view addSubview:_tableView];
-    
-    
-    
 }
 
 #pragma mark - DBCameraViewControllerDelegate
@@ -177,12 +157,9 @@ typedef void (^TableRowBlock)();
     DetailViewController *detail = [[DetailViewController alloc] init];
     [detail setDetailImage:image];
     [self.navigationController pushViewController:detail animated:NO];
-  
+    
     [cameraViewController restoreFullScreenMode];
     [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
-    [self.presentedViewController presentViewController:detail animated:YES completion:^{
-        
-    }];
 }
 
 
